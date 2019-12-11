@@ -1,9 +1,10 @@
 import * as HTTPEndpoint from "./HTTPEndpoint";
 import * as Sync from "./Sync";
+import { configureDexieForNode } from './utils/DexieIDBShim';
 import * as WebsocketEndpoint from "./WebsocketEndpoint";
 import { EndpointSettings } from "./getter/types";
 import { EventEmitter } from "events";
-import { configureDexieForNode } from "@augurproject/sdk/build/state/utils/DexieIDBShim";
+
 configureDexieForNode(false);
 
 export async function run() {
