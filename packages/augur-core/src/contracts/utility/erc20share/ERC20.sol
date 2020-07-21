@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-pragma solidity ^0.6.0;
+pragma solidity ^0.5.15;
 
 import "ROOT/utility/erc20token/Context.sol";
 import "ROOT/utility/erc20token/IERC20.sol";
